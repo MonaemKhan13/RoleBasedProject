@@ -1,0 +1,588 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Backend\\RoleBased.Backend.csproj": {}
+  },
+  "projects": {
+    "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Backend\\RoleBased.Backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Backend\\RoleBased.Backend.csproj",
+        "projectName": "RoleBased.Backend",
+        "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Backend\\RoleBased.Backend.csproj",
+        "packagesPath": "C:\\Users\\USSL\\.nuget\\packages\\",
+        "outputPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Backend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USSL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.IoC.Configuration\\RoleBased.IoC.Configuration.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.IoC.Configuration\\RoleBased.IoC.Configuration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Core\\RoleBased.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Core\\RoleBased.Core.csproj",
+        "projectName": "RoleBased.Core",
+        "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Core\\RoleBased.Core.csproj",
+        "packagesPath": "C:\\Users\\USSL\\.nuget\\packages\\",
+        "outputPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USSL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Model\\RoleBased.Model.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Model\\RoleBased.Model.csproj"
+              },
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Repository\\RoleBased.Repository.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Repository\\RoleBased.Repository.csproj"
+              },
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Service.Model\\RoleBased.Service.Model.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Service.Model\\RoleBased.Service.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Infractructure\\RoleBased.Infractructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Infractructure\\RoleBased.Infractructure.csproj",
+        "projectName": "RoleBased.Infractructure",
+        "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Infractructure\\RoleBased.Infractructure.csproj",
+        "packagesPath": "C:\\Users\\USSL\\.nuget\\packages\\",
+        "outputPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Infractructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USSL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Model\\RoleBased.Model.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Model\\RoleBased.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.IoC.Configuration\\RoleBased.IoC.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.IoC.Configuration\\RoleBased.IoC.Configuration.csproj",
+        "projectName": "RoleBased.IoC.Configuration",
+        "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.IoC.Configuration\\RoleBased.IoC.Configuration.csproj",
+        "packagesPath": "C:\\Users\\USSL\\.nuget\\packages\\",
+        "outputPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.IoC.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USSL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Core\\RoleBased.Core.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Core\\RoleBased.Core.csproj"
+              },
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Infractructure\\RoleBased.Infractructure.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Infractructure\\RoleBased.Infractructure.csproj"
+              },
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Repository\\RoleBased.Repository.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Repository\\RoleBased.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Model\\RoleBased.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Model\\RoleBased.Model.csproj",
+        "projectName": "RoleBased.Model",
+        "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Model\\RoleBased.Model.csproj",
+        "packagesPath": "C:\\Users\\USSL\\.nuget\\packages\\",
+        "outputPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USSL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Shared\\RoleBased.Shared.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Shared\\RoleBased.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Repository\\RoleBased.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Repository\\RoleBased.Repository.csproj",
+        "projectName": "RoleBased.Repository",
+        "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Repository\\RoleBased.Repository.csproj",
+        "packagesPath": "C:\\Users\\USSL\\.nuget\\packages\\",
+        "outputPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USSL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Infractructure\\RoleBased.Infractructure.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Infractructure\\RoleBased.Infractructure.csproj"
+              },
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Model\\RoleBased.Model.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Model\\RoleBased.Model.csproj"
+              },
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Service.Model\\RoleBased.Service.Model.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Service.Model\\RoleBased.Service.Model.csproj"
+              },
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Shared\\RoleBased.Shared.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Shared\\RoleBased.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Service.Model\\RoleBased.Service.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Service.Model\\RoleBased.Service.Model.csproj",
+        "projectName": "RoleBased.Service.Model",
+        "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Service.Model\\RoleBased.Service.Model.csproj",
+        "packagesPath": "C:\\Users\\USSL\\.nuget\\packages\\",
+        "outputPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Service.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USSL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Shared\\RoleBased.Shared.csproj": {
+                "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Shared\\RoleBased.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Shared\\RoleBased.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Shared\\RoleBased.Shared.csproj",
+        "projectName": "RoleBased.Shared",
+        "projectPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Shared\\RoleBased.Shared.csproj",
+        "packagesPath": "C:\\Users\\USSL\\.nuget\\packages\\",
+        "outputPath": "E:\\M.A. Monaem Khan C#\\RoleBased\\RoleBased.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USSL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

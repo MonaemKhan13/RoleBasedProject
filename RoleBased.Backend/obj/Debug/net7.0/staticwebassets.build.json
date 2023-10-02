@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "myIfjrffWl5XHXieKVu9vOvJgCP7CGynkr/P/yyNIXg=",
+  "Source": "RoleBased.Backend",
+  "BasePath": "_content/RoleBased.Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

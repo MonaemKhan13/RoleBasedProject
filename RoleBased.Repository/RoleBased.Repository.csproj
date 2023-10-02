@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoleBased.Infractructure\RoleBased.Infractructure.csproj" />
+    <ProjectReference Include="..\RoleBased.Model\RoleBased.Model.csproj" />
+    <ProjectReference Include="..\RoleBased.Service.Model\RoleBased.Service.Model.csproj" />
+    <ProjectReference Include="..\RoleBased.Shared\RoleBased.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
