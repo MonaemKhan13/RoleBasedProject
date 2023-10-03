@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/RoleBased.Frontend.styles.css" asp-append-version="true" />
 </head>
+@{
+    string Role = Environment.GetEnvironmentVariable("Role");
+    string Name = Environment.GetEnvironmentVariable("Name");
+}
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
@@ -25,7 +29,29 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        @if (Role == "Student")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" >See All Teacher</a>
+                            </li>
+                        }
+                        @if (Role == "Teacher")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark">See All Student</a>
+                            </li>
+                        }
                     </ul>
+                    <div class="d-flex justify-content-end me-3">
+                        @if (Role == "Student")
+                        {
+                            <h1> Hi @Name</h1>
+                        }
+                        @if (Role == "Teacher")
+                        {
+                            <h1> Hi MR. @Name</h1>
+                        }
+                    </div>
                 </div>
             </div>
         </nav>
